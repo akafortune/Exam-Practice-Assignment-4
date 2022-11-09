@@ -1,10 +1,10 @@
 /**
- * File: csci1302/ch16/MileageCalculator.java
+ * File: csci1302/ch16/MileageCalculatorNoConversionIssue1.java
  * Package: ch16
- * @author Christopher Williams
+ * @author Connor McDonald
  * Created on: Apr 12, 2017
- * Last Modified: Apr 15, 2019
- * Description:  
+ * Last Modified: Nov 7, 2022
+ * Description:  Added combo box to interface of milage calculator
  */
 package ch16;
 
@@ -21,7 +21,7 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class MileageCalculatorNoConversion extends Application {
+public class MileageCalculatorNoConversionIssue1 extends Application {
 	// default values/strings
     private double txtWidth = 125.0;
     private String defaultCalc = String.format("%.2f", 0.00);
